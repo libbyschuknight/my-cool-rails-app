@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get '/about' => 'site#about'
 
+  get '/privacy' => 'site#privacy'
+
 
 
   # Example of regular route:
