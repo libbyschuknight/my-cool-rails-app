@@ -57,3 +57,13 @@ body > .container {
 code {
  font-size: 80%;
 }
+
+
+/* Nav Bar CSS for having page link looking like selected
+---------------------------------------------------------- */
+
+.this-page {
+  background-color: rgb(231, 231, 231);
+  display: block;
+  padding: 15px;
+}
