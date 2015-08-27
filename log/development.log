@@ -1616,3 +1616,9 @@ Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd81
 
 
 Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-27 14:01:43 +1200
+
+
+Started GET "/terms" for ::1 at 2015-08-27 14:03:56 +1200
+Processing by SiteController#terms as HTML
+  Rendered site/terms.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 18.8ms)
