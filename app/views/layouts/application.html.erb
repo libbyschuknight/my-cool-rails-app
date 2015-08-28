@@ -68,11 +68,19 @@
       <%= yield %>
     </main>
 
-     <footer class="footer">
-       <div class="container">
-         <p class="text-muted">Place sticky footer content here.</p>
-       </div>
-     </footer>
+    <footer class="footer">
+      <div class="container">
+        <nav class="pull-right">
+          <%= link_to_unless_current "Privacy policy", privacy_path do | label |
+            content_tag(:span, label, class: "this-page")
+          end %> &middot;
+          <%= link_to_unless_current "Terms of use", terms_path do | label |
+            content_tag(:span, label, class: "this-page")
+          end %>
+        </nav>
+        <p class="text-muted copyright">&copy; 2015 Enspiral Dev Academy. Yeah.</p>
+      </div>
+    </footer>
 
 
 </body>

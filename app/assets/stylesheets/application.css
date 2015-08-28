@@ -62,8 +62,19 @@ code {
 /* Nav Bar CSS for having page link looking like selected
 ---------------------------------------------------------- */
 
-.this-page {
-  background-color: rgb(231, 231, 231);
+.navbar-fixed-top .this-page {
+  background-color: #E7E7E7;
   display: block;
   padding: 15px;
+}
+
+
+/* Footer */
+.copyright {
+  color: #777;
+  /*padding-top: 20px;*/
+}
+
+.footer nav {
+  padding-top: 20px;
 }
