@@ -1,0 +1,8 @@
+Started GET "/contact" for 127.0.0.1 at 2015-08-29 22:14:41 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 271ms (Views: 270.7ms)
+Started GET "/contact" for 127.0.0.1 at 2015-08-29 22:15:20 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 115ms (Views: 115.0ms)
