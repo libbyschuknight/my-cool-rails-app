@@ -2149,3 +2149,113 @@ Started GET "/" for ::1 at 2015-08-30 19:30:27 +1200
 Processing by SiteController#index as HTML
   Rendered site/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 29ms (Views: 28.3ms)
+
+
+Started GET "/" for ::1 at 2015-08-30 19:37:42 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 141ms (Views: 140.7ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-30 19:37:42 +1200
+
+
+Started GET "/assets/application.self-b2034b2c37b4e9b269d9fe657af0cbeba9ea1ef7fc40793b64bda8c16db7ce6b.css?body=1" for ::1 at 2015-08-30 19:37:42 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-30 19:37:42 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-30 19:37:42 +1200
+
+
+Started GET "/contact" for ::1 at 2015-08-30 19:37:45 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.6ms)
+
+
+Started GET "/contact" for ::1 at 2015-08-30 19:38:02 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.4ms)
+
+
+Started GET "/assets/application.self-b2034b2c37b4e9b269d9fe657af0cbeba9ea1ef7fc40793b64bda8c16db7ce6b.css?body=1" for ::1 at 2015-08-30 19:38:02 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-30 19:38:02 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-30 19:38:02 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-30 19:38:02 +1200
+
+
+Started POST "/contact" for ::1 at 2015-08-30 19:38:06 +1200
+Processing by InquiriesController#create as HTML
+  Parameters: {"message"=>"ldfljdfkljasdlfjaldsf"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2015-08-30 19:38:06 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 30.0ms)
+
+
+Started GET "/" for ::1 at 2015-08-30 19:39:07 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.9ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-30 19:39:07 +1200
+
+
+Started GET "/assets/application.self-b2034b2c37b4e9b269d9fe657af0cbeba9ea1ef7fc40793b64bda8c16db7ce6b.css?body=1" for ::1 at 2015-08-30 19:39:07 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-30 19:39:07 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-30 19:39:07 +1200
+
+
+Started GET "/" for ::1 at 2015-08-30 19:39:40 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.8ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-30 19:39:40 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-30 19:39:40 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-30 19:39:40 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-30 19:39:40 +1200
+
+
+Started GET "/contact" for ::1 at 2015-08-30 19:39:52 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 23.9ms)
+
+
+Started POST "/contact" for ::1 at 2015-08-30 19:39:55 +1200
+Processing by InquiriesController#create as HTML
+  Parameters: {"message"=>"asdfhadsfhjkahsdfkhds"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2015-08-30 19:39:55 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms)

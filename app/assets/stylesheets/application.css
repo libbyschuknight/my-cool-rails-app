@@ -58,6 +58,9 @@ code {
  font-size: 80%;
 }
 
+.messages {
+  margin-top: 20px;
+}
 
 /* Nav Bar CSS for having page link looking like selected
 ---------------------------------------------------------- */
