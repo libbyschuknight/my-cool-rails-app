@@ -14,6 +14,8 @@ Rails.application.routes.draw do
   get '/terms' => 'site#terms'
 
   get '/contact' => 'inquiries#new'
+  post '/contact' => 'inquiries#create'
+
 
 
 
