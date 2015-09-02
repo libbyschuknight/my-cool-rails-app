@@ -25,7 +25,7 @@
            </button>
 
            <%=
-             link_to_unless_current "Enspiral Dev Academy",
+             link_to_unless_current @title,
              root_path, class: "navbar-brand"  do | label |
                content_tag(:span, label, class: "navbar-brand")
              end

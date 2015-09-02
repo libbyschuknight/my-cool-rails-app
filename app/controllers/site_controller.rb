@@ -1,7 +1,7 @@
 class SiteController < ApplicationController
 
   def index
-    @title = "Welcome!"
+    # @title = "Welcome!"
   end
 
   def about

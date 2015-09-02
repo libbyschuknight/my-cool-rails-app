@@ -58,3 +58,16 @@ Started GET "/" for 127.0.0.1 at 2015-08-30 19:40:21 +1200
 Processing by SiteController#index as HTML
   Rendered site/index.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 4ms (Views: 4.1ms)
+Started GET "/contact" for 127.0.0.1 at 2015-09-01 20:20:13 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 151ms (Views: 150.7ms)
+Started POST "/contact" for 127.0.0.1 at 2015-09-01 20:20:13 +1200
+Processing by InquiriesController#create as HTML
+  Parameters: {"message"=>"This is my message"}
+Redirected to http://www.example.com/
+Completed 302 Found in 1ms
+Started GET "/" for 127.0.0.1 at 2015-09-01 20:20:13 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 6.3ms)

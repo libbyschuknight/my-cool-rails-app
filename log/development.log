@@ -2259,3 +2259,468 @@ Started GET "/" for ::1 at 2015-08-30 19:39:55 +1200
 Processing by SiteController#index as HTML
   Rendered site/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 26ms (Views: 25.3ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:40:14 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 166ms (Views: 165.6ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-31 16:40:14 +1200
+
+
+Started GET "/" for ::1 at 2015-08-31 16:40:54 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.9ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-31 16:40:54 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-31 16:40:54 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-31 16:40:54 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-31 16:40:54 +1200
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:41:59 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.7ms)
+
+
+Started GET "/contact" for ::1 at 2015-08-31 16:42:02 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 21.1ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:42:03 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.4ms)
+
+
+Started GET "/contact" for ::1 at 2015-08-31 16:42:04 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.8ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:42:05 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 23.2ms)
+
+
+Started GET "/contact" for ::1 at 2015-08-31 16:42:06 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 22.1ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:42:07 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.7ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:42:10 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.9ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:44:01 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.5ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:44:03 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.6ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:44:04 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 29.1ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:44:53 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007fa096512280>:0x007fa096511970>):
+    25:            </button>
+    26: 
+    27:            <%=
+    28:              link_to_unless_current title.title,
+    29:              root_path, class: "navbar-brand"  do | label |
+    30:                content_tag(:span, label, class: "navbar-brand")
+    31:              end
+  app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___262223943488229739_70163819295640'
+
+
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.9ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (58.8ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.4ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:45:03 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Title):
+    25:            </button>
+    26: 
+    27:            <%=
+    28:              link_to_unless_current Title.title,
+    29:              root_path, class: "navbar-brand"  do | label |
+    30:                content_tag(:span, label, class: "navbar-brand")
+    31:              end
+  app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___262223943488229739_70163847330420'
+
+
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.6ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (45.4ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/SchuKnight/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (105.5ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:45:09 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-31 16:45:09 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-31 16:45:09 +1200
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-31 16:45:09 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-31 16:45:09 +1200
+
+
+Started GET "/" for ::1 at 2015-08-31 16:45:11 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 25.1ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:45:12 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 21.3ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:45:13 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.8ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:45:38 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 27.6ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:45:40 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.6ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:45:51 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-31 16:45:51 +1200
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-31 16:45:51 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-31 16:45:51 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-31 16:45:51 +1200
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:45:53 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 19.2ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:45:54 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.9ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:45:55 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 23.1ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:47:10 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.7ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-31 16:47:10 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-31 16:47:10 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-31 16:47:10 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-31 16:47:10 +1200
+
+
+Started GET "/" for ::1 at 2015-08-31 16:47:12 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.5ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:47:17 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.9ms)
+
+
+Started GET "/about" for ::1 at 2015-08-31 16:49:36 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.4ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-31 16:49:36 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-31 16:49:36 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-31 16:49:36 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-31 16:49:36 +1200
+
+
+Started GET "/" for ::1 at 2015-08-31 16:49:38 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 21.2ms)
+
+
+Started GET "/" for ::1 at 2015-08-31 16:49:49 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.4ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-08-31 16:49:49 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-31 16:49:49 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-08-31 16:49:49 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-31 16:49:49 +1200
+
+
+Started GET "/" for ::1 at 2015-09-03 08:35:09 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 159ms (Views: 159.0ms)
+
+
+Started GET "/about" for ::1 at 2015-09-03 08:35:19 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 20.1ms)
+
+
+Started GET "/contact" for ::1 at 2015-09-03 08:35:20 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.8ms)
+
+
+Started GET "/" for ::1 at 2015-09-03 08:35:21 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.9ms)
+
+
+Started GET "/about" for ::1 at 2015-09-03 08:35:22 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 18.2ms)
+
+
+Started GET "/contact" for ::1 at 2015-09-03 08:35:23 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.7ms)
+
+
+Started GET "/about" for ::1 at 2015-09-03 08:35:24 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-03 08:35:24 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-03 08:35:44 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 24.4ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-09-03 08:35:44 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-03 08:35:44 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-09-03 08:35:44 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-03 08:35:44 +1200
+
+
+Started GET "/about" for ::1 at 2015-09-03 08:35:47 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.6ms)
+
+
+Started GET "/contact" for ::1 at 2015-09-03 08:35:48 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.7ms)
+
+
+Started GET "/contact" for ::1 at 2015-09-03 08:35:58 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.6ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-09-03 08:35:58 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-03 08:35:58 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-09-03 08:35:58 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-03 08:35:58 +1200
+
+
+Started GET "/" for ::1 at 2015-09-03 08:36:00 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-03 09:48:46 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.3ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-09-03 09:48:46 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-03 09:48:46 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-03 09:48:46 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-09-03 09:48:46 +1200
+
+
+Started GET "/" for ::1 at 2015-09-03 09:48:49 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 17.2ms)
+
+
+Started GET "/assets/application.self-6caa0bdb7b379bd24d377ff9194a0d75981600de91b31e7b42daf3a96fb33779.css?body=1" for ::1 at 2015-09-03 09:48:49 +1200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-03 09:48:49 +1200
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-03 09:48:49 +1200
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-09-03 09:48:49 +1200
+
+
+Started GET "/about" for ::1 at 2015-09-03 09:48:51 +1200
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 22.2ms)
+
+
+Started GET "/contact" for ::1 at 2015-09-03 09:48:52 +1200
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 23.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-03 09:48:53 +1200
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.6ms)
